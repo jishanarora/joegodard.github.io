@@ -2,7 +2,7 @@
 ***
 (555) 555-5555          
 godardj1@myumanitoba.ca  
-[github.com/joegodard][Github Link]
+[github.com/joegodard][Github Link] 
 ***
 ## Education
 **Bachelor of Computer Science (Honours)**  
