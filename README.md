@@ -8,7 +8,9 @@ You should have a resume prepared in Markdown that you would like to host. For t
 ## Instructions
 
 ### Setting up the GitHub Repository
-In order host a file with GitHub Pages, we first need to set up a GitHub Repository in the correct way. These steps are outline below.
+In order host a file with GitHub Pages, we first need to set up a GitHub Repository in the correct way. These steps are outline below.   
+
+Andrew Etter outlines some of the benefits of using distributed version control in the book _Modern Technical Writing_. The main advantage is that it allows many users to collaborate on the same documentation. Developers are able to update and change the documentation as they make changes to the codebase, allowing the documentation to remain relevant at all times.
 1. **Create a new GitHub Repository**   
     From either the homepage or your profile, click the green "New" button to create a new repository.
 2. **Name and Initialize the repository**   
@@ -18,7 +20,9 @@ In order host a file with GitHub Pages, we first need to set up a GitHub Reposit
     Click "Create Repository" to initialize the repository.
 
 ### Setting up the Local Repository
-We must now set up the repository on our local machine and link it to the GitHub repository.
+We must now set up the repository on our local machine and link it to the GitHub repository.   
+
+Andrew Etter describes another benefit to using version control systems such as git, that being the fact that it is much easier to work on only one document rather than several. With traditional file sharing and editing, new copies of a file must be made and downloaded every time another developer might want to view or edit it. With systems like git, it is much easier to make changes to the requisite files and commit them to a repository. This saves having to make and keep track of multiple versions of the same file. 
 
 3. **Create the Desired Directory**   
 Create a directory in your desired location, then add your Resume file into the directory. Your resume should be named index.md, as GitHub Pages displays that file as the default.
@@ -37,7 +41,9 @@ Git will ask for your username and access token. If unfamiliar with creating acc
 These commands will link your local and remote repositories and push the local file to the GitHub repository.
 
 ### Setting up GitHub Pages
-Now that the repository has been setup, we just have to pick a theme and see the result.
+Now that the repository has been setup, we just have to pick a theme and see the result.   
+
+Andrew Etter also describes some of the benefits of using static websites, such as the one we are hosting here. The primary benefit is that they are very simple; they don't need to connect to a server-side application or database, and there is little risk of crashes. They are easy to develop and are perfect for tasks such as documentation, where it is really only text being displayed.
 
 7. **Pick a Theme**   
 Click the settings tab in the GitHub Repository, then Pages, then Pick Theme.   
